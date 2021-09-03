@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    width: 800px;
+    margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -46,11 +48,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-* {
-    box-sizing: border-box;
-}
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -58,18 +55,40 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin: 4% auto;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
 }
+/* My Styles begin */
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+header  {
+    padding: 1.5em; 
 }
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 1rem; 
+}
+.main-nav img {
+    margin-left: -2.5rem;;
+}
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+.top-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;  
+}
+
 
 .top-content {
     display: flex;
@@ -104,14 +123,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* Box Colors */
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +191,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About Page Styles */
+/* .container {
+    justify-content: space-around;
+} */
+.about-page {
+    border-bottom: 1px dashed black;
+    }
+
+.about-one {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+      
+ }
+ .about-one div {
+     margin: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
+}
+.about-two {
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 2rem;
+}
+.about-two div {
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;      
+}
+
+div p {
+    padding-bottom: 2rem;
+    
+}
+.about-two div a {
+   margin-bottom: 0
+}
+.button {
+    text-decoration: none;
+    color: black;
+    width: 5%;
+    padding: 0.5em 1.5em;
+    border: 2px solid black;
+    border-radius: 0.5rem;     
+}
+.about-last p {
+    padding-bottom: 2.5rem;
 }
