@@ -65,6 +65,31 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header  {
+    
+    width: 800px;
+    margin: 0 auto; 
+    padding: 1.5em;
+        
+    
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+.top-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    
+}
 
 .container {
     width: 800px;
