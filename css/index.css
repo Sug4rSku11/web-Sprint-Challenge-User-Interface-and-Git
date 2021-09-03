@@ -65,9 +65,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* My Styles begin */
 header  {
-    
-    width: 800px;
+    width: 845px;
     margin: 0 auto; 
     padding: 1.5em;
         
@@ -75,7 +75,7 @@ header  {
 }
 .main-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 .main-nav a{
@@ -129,14 +129,44 @@ header  {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* Box Colors */
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
