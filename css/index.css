@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    width: 800px;
+    margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -58,25 +60,28 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin: 4% auto;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    margin: 4% auto;
 }
 /* My Styles begin */
-header  {
-    width: 845px;
-    margin: 0 auto; 
-    padding: 1.5em;
-        
-    
+img {
+    border: 1px solid black;
 }
+header  {
+    padding: 1.5em; 
+}
+
 .main-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
+    padding-top: 1%;
+
 }
 .main-nav a{
     text-decoration: none;
@@ -91,10 +96,6 @@ header  {
     
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
 .top-content {
     display: flex;
@@ -129,7 +130,6 @@ header  {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -198,4 +198,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About Page Styles */
+/* .container {
+    justify-content: space-around;
+} */
+.about-page {
+    border-bottom: 1px dashed black;
+    }
+
+.about-page div {
+        margin-bottom:5%;
+    }
+
+.about-one {
+    display: flex;
+    justify-content: center; 
+    border-bottom: 1px dashed black;
+ }
+ .about-one div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-two {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;  
+}
+.about-two div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    width: 5%;
+    padding: 0.5em 1.5em;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    
 }
