@@ -72,8 +72,10 @@ header  {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 1%;
-
+    padding: 1rem 1rem; 
+}
+.main-nav img {
+    margin-left: -2.5rem;;
 }
 .main-nav a{
     text-decoration: none;
@@ -84,8 +86,7 @@ header  {
 .top-img {
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
-    
+    margin-bottom: 3%;  
 }
 
 
